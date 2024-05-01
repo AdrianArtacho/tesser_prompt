@@ -2,7 +2,7 @@
 	"name" : "tesser_prompt",
 	"version" : 1,
 	"creationdate" : 3797313855,
-	"modificationdate" : 3797420582,
+	"modificationdate" : 3797429485,
 	"viewrect" : [ 155.0, 243.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -31,7 +31,7 @@
 				"local" : 1
 			}
 ,
-			"[prompt].maxpat" : 			{
+			"prompt.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
