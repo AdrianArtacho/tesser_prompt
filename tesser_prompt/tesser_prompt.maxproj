@@ -2,8 +2,8 @@
 	"name" : "tesser_prompt",
 	"version" : 1,
 	"creationdate" : 3797313855,
-	"modificationdate" : 3797316258,
-	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
+	"modificationdate" : 3797420582,
+	"viewrect" : [ 155.0, 243.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -24,6 +24,16 @@
 					"projectrelativepath" : "../download-sheet"
 				}
 
+			}
+,
+			"textline-extract.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"[prompt].maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
