@@ -2,8 +2,8 @@
 	"name" : "tesser_prompt",
 	"version" : 1,
 	"creationdate" : 3797313855,
-	"modificationdate" : 3797429485,
-	"viewrect" : [ 155.0, 243.0, 300.0, 500.0 ],
+	"modificationdate" : 3797502018,
+	"viewrect" : [ -301.0, 539.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -26,12 +26,22 @@
 
 			}
 ,
+			"prompt.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"textline-extract.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"prompt.maxpat" : 			{
+			"scene-name.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"extract-percent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-1",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 134.5, 883.669677734375, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -130,7 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.5, 44.0, 50.0, 22.0 ],
-					"text" : "-1"
+					"text" : "0"
 				}
 
 			}
@@ -142,7 +154,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 80.5, 795.669677734375, 360.0, 22.0 ],
-					"text" : "sdfsdfsdfsb fg fg fg sdfg"
+					"text" : "bumero 1 1 1 1 50%"
 				}
 
 			}
@@ -189,8 +201,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 513.669677734375, 140.0, 22.0 ],
-					"text" : "sdfsdfsdfsb fg fg fg sdfg"
+					"patching_rect" : [ 265.0, 513.669677734375, 169.0, 22.0 ],
+					"text" : "timed 2.3 bumero 1 1 1 1 50%"
 				}
 
 			}
@@ -275,7 +287,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 494.0, 680.669677734375, 97.0, 35.0 ],
-					"text" : "sdfsdfsdfsb fg fg fg sdfg"
+					"text" : "bumero 1 1 1 1 50%"
 				}
 
 			}
@@ -431,8 +443,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.0, 270.669677734375, 52.0, 102.0 ],
-					"text" : "\"1\" scene 5 popup sdfsdfsdfsb fg fg fg sdfg"
+					"patching_rect" : [ 184.0, 270.669677734375, 58.0, 102.0 ],
+					"text" : "\"1\" timer 00:05 popup timed 2.3 bumero 1 1 1 1 50%"
 				}
 
 			}
@@ -495,7 +507,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-68",
-					"index" : 1,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -534,7 +546,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
