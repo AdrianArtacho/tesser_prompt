@@ -10,7 +10,7 @@ Place the device `tesser_prompt` in your Live set. If you want to time the promp
 
 ### Interface
 
-![GUI](images/GUI.png)
+![GUI](img/gui.png)
 
 - The *timer:* menu sets the source for the timing info. Default: CC input.
 
@@ -26,7 +26,7 @@ Place the device `tesser_prompt` in your Live set. If you want to time the promp
 
 The device uses the `download-sheet` object, which reads the .tsv values from a google spreadsheet living in the cloud (which it stores within the set). The URL to that .tsv sheet should be set accordingly.
 
-![shet](images/sheet.png)
+![shet](img/sheet.png)
 
 ---
 
@@ -34,7 +34,7 @@ The device uses the `download-sheet` object, which reads the .tsv values from a 
 
 You may launch a prompt writing its number on the clip name, or preload it by writing the number between parenthesis.
 
-![clips](images/clips.png)
+![clips](img/clips.png)
 
 ---
 
